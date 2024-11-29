@@ -61,3 +61,11 @@ pipeline {
 
         success {
             echo 'Tests ran successfully!'
+        }
+
+        failure {
+            echo 'Tests failed.'
+        }
+    }
+}
+
